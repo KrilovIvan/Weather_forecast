@@ -1,8 +1,17 @@
-# Getting Started with Create React App
+# Приложение "Weather_forecast" разработано для того, чтобы находить прогноз погоды для своего региона
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Поддерживаемые функции
+
+- **Простота**: Интерфейс разработан очень просто и понятно.
+-  **Архитектура**: При разработке архитектуры поддерживались основные паттерны проектирования .
+
+----
+
+Prettier: все, что может быть отформатировано роботом - должно быть отформатировано роботом. Все *.css, *.scss, *.js, *.jsx, *.ts, *.tsx, *.html, *.json и прочее, что поддерживает prettier
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
