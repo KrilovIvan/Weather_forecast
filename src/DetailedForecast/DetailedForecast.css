@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap");
+
+.weather__wrapper {
+  gap: 10px;
+  width: 767px;
+  height: 395px;
+  margin-left: 114px;
+  margin-top: 65px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.button__wrapper {
+  margin-top: 84px;
+  margin-left: 114px;
+}
+
+.back__button {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #356eff;
+}
+
+.common__stat-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+.common__stat-temp {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.common__stat-img {
+  height: 50px;
+  width: 50px;
+}
+
+.commom__stat-feels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+}
+
+.feels__description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.feels__temp {
+  font-family: "Inter";
+  font-style: bold;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.wind__stats-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.wind__style,
+.wind__humidity,
+.wind__pressure {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.wind__wind-img,
+.wind__humidity-img,
+.wind__pressure-img {
+  height: 32px;
+  width: 32px;
+  margin-right: 5px;
+}
+
+.detailed__stats-wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-radius: 20px;
+  height: 300px;
+}

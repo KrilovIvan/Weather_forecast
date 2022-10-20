@@ -1,0 +1,36 @@
+.weather__wrapper {
+  box-sizing: border-box;
+  padding: 15px 20px;
+  width: 172px;
+  height: 213px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-right: 48px;
+}
+.cities__name {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 5px;
+
+}
+.temperature {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin-top: 5px;
+
+}
+.cloudiness {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+.cloudinessText{
+  margin-top: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+}
